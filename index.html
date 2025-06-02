@@ -4,11 +4,30 @@
 <head>
     <title>Kalkylator</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css?v=1.8">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/script.js?v=1.1"></script>
+
+    <!-- pwa settings -->
+    <link rel="manifest" href="manifest.json?v=1.2">
+    <meta name="theme-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" sizes="192x192" href="icons/icon-192x192.png">
+
+    <!-- IOS/IPhone/IPad -->
+    <link rel="apple-touch-startup-image" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="icons/icon-180x180.png" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Calculator">
+
     <!-- Fixar länkproblem på iPhone som hoppar till safari -->
     <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
-    <script src="js/script.js " defer></script>
 </head>
 <body>
     <main>
