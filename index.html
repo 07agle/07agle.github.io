@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Kalkylator</title>
+    <title>Kalkylator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css?v=1.1">
-        <script src="js/script.js " defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/script.js?v=1.1"></script>
 
     <!-- pwa settings -->
     <link rel="manifest" href="manifest.json?v=1.2">
@@ -28,6 +28,7 @@
 
     <!-- Fixar länkproblem på iPhone som hoppar till safari -->
     <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+</head>
 <body>
     <main>
         <input type="text" id = 'lcd'>
